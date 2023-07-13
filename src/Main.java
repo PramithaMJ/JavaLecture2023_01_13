@@ -13,17 +13,17 @@ public class Main {
         System.out.println("hello".equals(a));
         System.out.println("hello".equalsIgnoreCase(a));
 
-        String text = "NIBM Galle Branch";
+        String text = "Faculty of Engineering";
         //Get the length of the string
         System.out.println(text.length());
         //Substring
-        System.out.println(text.substring(5));
-        System.out.println(text.substring(5,10));
+        System.out.println(text.substring(10));
+        System.out.println(text.substring(8,10));
         //Get character index
         //This returns first occurrence of the given character
-        System.out.println(text.indexOf('B'));
+        System.out.println(text.indexOf('c'));
         //This returns last occurrence of the given character
-        System.out.println(text.lastIndexOf('B'));
+        System.out.println(text.lastIndexOf('n'));
         //Get character at given index
         System.out.println(text.charAt(5));
         //Convert to uppercase
@@ -31,9 +31,9 @@ public class Main {
         //Convert to lowercase
         System.out.println(text.toLowerCase());
         //Text start with
-        System.out.println(text.startsWith("NIBM"));
+        System.out.println(text.startsWith("Faculty"));
         //Text contains
-        System.out.println(text.contains("Galle"));
+        System.out.println(text.contains("Engineering"));
 
 
     }
