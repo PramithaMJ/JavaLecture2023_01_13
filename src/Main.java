@@ -7,5 +7,11 @@ public class Main {
 
         String str ="Java String";
         System.out.println(str);
+
+        String a = "Hello";
+        System.out.println("Hello".equals(a));
+        System.out.println("hello".equals(a));
+        System.out.println("hello".equalsIgnoreCase(a));
+
     }
 }
