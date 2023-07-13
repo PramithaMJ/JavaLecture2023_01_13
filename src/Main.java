@@ -35,6 +35,19 @@ public class Main {
         //Text contains
         System.out.println(text.contains("Engineering"));
 
+        StringBuilder sb = new StringBuilder("FOEUOR");
+        //Append text
+        sb.append(" ").append("Galle").append(" HAPUGALA");
+        System.out.println(sb.toString());
+        //Delete text
+        sb.delete(5,10);
+        System.out.println(sb.toString());
+        //Insert text
+        sb.insert(5,"Matara");
+        System.out.println(sb.toString());
+        //Substring
+        System.out.println(sb.substring(5));
+        System.out.println(sb.substring(5,11));
 
     }
 }
